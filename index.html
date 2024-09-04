@@ -11,60 +11,93 @@
 </head>
 
 <body>
+    <nav class="navbar bg-body-tertiary">
+        
+        <a class="navbar-brand" href="#">
+            <img src="img/cliente-logo.jpeg" alt="Bootstrap" width="100" height="70">
+        </a>
+        
+    </nav>
     <div class="container mt-5">
         <form>
             <h1>Cadastro de Clientes</h1>
             <!-- Utilize a classe 'form-group' para agrupar as labels e inputs -->
             <div class="form-group">
-                <label for="nome">Nome</label>
-                <!-- Aplique a classe 'custom-input' aos imputs do formulário -->
-                <input type="nome" class="form-control custom-input" id="nome"
-                    aria-describedby="nome" placeholder="Digite seu nome">
+                <div class="row">
+                    <div class="col">
+                        <label for="nome">Nome</label>
+                        <!-- Aplique a classe 'custom-input' aos imputs do formulário -->
+                        <input type="nome" class="form-control custom-input" id="nome" aria-describedby="nome"
+                            placeholder="Digite seu nome">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="cpf">CPF</label>
+                        <input type="cpf" class="form-control custom-input" id="nome" aria-describedby="cpf"
+                            placeholder="Informe seu CPF ou CNPJ">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="endereço">Endereço</label>
+                        <input type="endereço" class="form-control custom-input" id="endereço"
+                            aria-describedby="endereço" placeholder="Informe seu endereço">
+                    </div>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="cep">CEP</label>
+                        <input type="cep" class="form-control custom-input" id="cep" aria-describedby="cep"
+                            placeholder="Informe seu CEP">
+                    </div>
+                </div>
             </div>
 
             <div class="form-group">
-                <label for="cpf">CPF</label>
-                <input type="cpf" class="form-control custom-input" id="nome"
-                    aria-describedby="cpf" placeholder="Informe seu CPF ou CNPJ">
+                <div class="row">
+                    <div class="col">
+                        <label for="telefone">Número</label>
+                        <input type="telefone" class="form-control custom-input" id="telefone"
+                            aria-describedby="telefone" placeholder="Digite seu número:(xx) xxxxx-xxxx">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label>Observações</label>
+                        <textarea class="form-control custom-input" id="floatingTextarea"
+                            placeholder="Comentários"></textarea>
+                    </div>
+                </div>
             </div>
 
             <div class="form-group">
-                <label for="endereço">Endereço</label>
-                <input type="endereço" class="form-control custom-input" id="endereço"
-                    aria-describedby="endereço" placeholder="Informe seu endereço">
-            </div>
-
-            <div class="form-group">
-                <label for="cep">CEP</label>
-                <input type="cep" class="form-control custom-input" id="cep"
-                    aria-describedby="cep" placeholder="Informe seu CEP">
-            </div>
-
-            <div class="form-group">
-                    <label for="telefone">Número</label>
-                    <input type="telefone" class="form-control custom-input" id="telefone"
-                        aria-describedby="telefone" placeholder="Digite seu número:(xx) xxxxx-xxxx">
-            </div>
-            
-            <div class="form-group">
-            <label for=""></label>
-            <textarea class="form-control custom-input" id="floatingTextarea" placeholder="Comentários"></textarea>
-            </div>
-
-            <div class="form-group">
+                
                 <button type="submit">Enviar</button>
 
             </div>
 
-            
-
-            
 
 
 
 
-            
-            
+
+
+
+
+
         </form>
     </div>
 </body>
